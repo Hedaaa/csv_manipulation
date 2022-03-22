@@ -1,5 +1,8 @@
-import pandas
+import pandas as p
 
-print("Hello World!")
+def read_data():
+    set = p.read_csv("dataset.csv")
+    print(len(set.columns))
+    print()
 
-print("Ai Laik HEDA")
+read_data()
